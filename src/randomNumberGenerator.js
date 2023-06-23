@@ -7,7 +7,8 @@ export default class RandomNumberGenerator extends React.Component {
       number: undefined,
     };
   }
-  getRandomNumber = () => {
+  getRandomNumber = (e) => {
+    e.preventDefault();
     const number = Math.ceil(Math.random() * 100);
     this.setState({
       number: number,
@@ -17,7 +18,7 @@ export default class RandomNumberGenerator extends React.Component {
     return (
       <div>
         <form>
-          <button>Get Random Number</button>
+          <button onClick={this.getRandomNumber(e)}>Get Random Number</button>
         </form>
         {this.state.number ? <div>Result:{this.state.number}</div> : null}
       </div>
