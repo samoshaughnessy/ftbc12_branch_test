@@ -1,6 +1,7 @@
+import RandomNumberGenerator from "./randomNumberGenerator";
 
 import Form from "./Form";
-import {Images} from "./Images";
+import Images from "./Images";
 import logo from "./logo.svg";
 import "./App.css";
 import { Greeting } from "./Greeting";
@@ -21,9 +22,10 @@ function App() {
         >
           Learn React
         </a>
+        <RandomNumberGenerator />
         <Form />
         <Greeting />
-        <Images/>
+        <Images />
       </header>
     </div>
   );

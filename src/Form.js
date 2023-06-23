@@ -15,7 +15,7 @@ class Form extends React.Component {
   };
 
   handleSubmit = (e) => {
-    e.preventDefault;
+    e.preventDefault();
   };
 
   render() {
