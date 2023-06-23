@@ -1,16 +1,7 @@
-import RandomNumberGenerator from "./randomNumberGenerator";
-
-import Form from "./Form";
-import Images from "./Images";
-import logo from "./logo.svg";
-import "./App.css";
-import { Greeting } from "./Greeting";
-
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -22,10 +13,6 @@ function App() {
         >
           Learn React
         </a>
-        <RandomNumberGenerator />
-        <Form />
-        <Greeting />
-        <Images />
       </header>
     </div>
   );

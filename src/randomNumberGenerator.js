@@ -18,7 +18,7 @@ export default class RandomNumberGenerator extends React.Component {
     return (
       <div>
         <form>
-          <button onClick={this.getRandomNumber(e)}>Get Random Number</button>
+          <button onClick={this.getRandomNumber}>Get Random Number</button>
         </form>
         {this.state.number ? <div>Result:{this.state.number}</div> : null}
       </div>
