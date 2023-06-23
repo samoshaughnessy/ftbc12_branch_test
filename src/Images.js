@@ -1,7 +1,5 @@
-import {Images} from "./Images";
-import logo from "./logo.svg";
-import "./App.css";
-import { Greeting } from "./Greeting";
+import react from "React"
+
 
 function App() {
   return (
@@ -19,9 +17,6 @@ function App() {
         >
           Learn React
         </a>
-
-        <Greeting />
-        <Images/>
       </header>
     </div>
   );
