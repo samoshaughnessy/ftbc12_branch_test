@@ -29,9 +29,11 @@ class Form extends React.Component {
             value={this.setState.name}
             onChange={this.handleChange}
           />
-          <button>Submit</button>
+          <button onClick={this.handleSubmit}>Submit</button>
         </form>
       </div>
     );
   }
 }
+
+export default Form;
