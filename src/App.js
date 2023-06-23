@@ -5,6 +5,7 @@ import Images from "./Images";
 import logo from "./logo.svg";
 import "./App.css";
 import { Greeting } from "./Greeting";
+import Display from "./Components/Display";
 import Icons from "./Icons";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Form />
         <Greeting />
         <Images />
+        <Display />
         <Icons />
       </header>
     </div>
