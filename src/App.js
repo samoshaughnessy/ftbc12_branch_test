@@ -1,4 +1,4 @@
-import images from "./Images";
+import {Images} from "./Images";
 import logo from "./logo.svg";
 import "./App.css";
 import { Greeting } from "./Greeting";
@@ -21,6 +21,7 @@ function App() {
         </a>
 
         <Greeting />
+        <Images/>
       </header>
     </div>
   );
