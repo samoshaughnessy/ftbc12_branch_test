@@ -5,6 +5,7 @@ import Images from "./Images";
 import logo from "./logo.svg";
 import "./App.css";
 import { Greeting } from "./Greeting";
+import Display from "./Components/Display";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Form />
         <Greeting />
         <Images />
+        <Display />
       </header>
     </div>
   );
